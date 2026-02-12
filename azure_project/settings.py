@@ -90,7 +90,7 @@ WSGI_APPLICATION = 'azure_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'mssql',
-        'NAME': 'shl-azure-sql-database',
+        'NAME': 'free-sql-db-2242513',
         'USER': 'Admin_SHL',
         'PASSWORD': '@dmin1234567',
         'HOST': 'shl-azure-mysql-server.database.windows.net',
