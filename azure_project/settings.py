@@ -90,10 +90,10 @@ WSGI_APPLICATION = 'azure_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'mssql',
-        'NAME': 'free-sql-db-0505019',
+        'NAME': 'shl-azure-sql-database',
         'USER': 'Admin_SHL',
         'PASSWORD': '@dmin1234567',
-        'HOST': 'mini-proj-server.database.windows.net',
+        'HOST': 'shl-azure-mysql-server.database.windows.net',
         'PORT': '1433',
         'OPTIONS': {
             'driver': 'ODBC Driver 18 for SQL Server',
